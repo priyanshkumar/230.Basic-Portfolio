@@ -1,7 +1,11 @@
+
+/* DEFAULT*/
 *{
     margin: 0%;
     padding: 0%; 
 }
+
+/*  STYLING COMMON FOR ALL PAGES*/
 
 body{
     color: #777777;
@@ -57,11 +61,6 @@ header{
     align-items: center;
 }
 
-img{
-    width: 12rem;
-    height: 12rem;
-}
-
 .h2heading{
     color: #4aaaa5;
     height: 4rem;
@@ -69,6 +68,12 @@ img{
     align-items: center;
     border-bottom: 2px solid #dddddd;
     width: 56rem;
+}
+
+/* INDEX PAGE*/
+img{
+    width: 12rem;
+    height: 12rem;
 }
 
 .content{
@@ -81,3 +86,34 @@ img{
     margin: 0 1rem;
     font-size: 17px;
 }
+
+/* FOOTER */
+footer{
+    border-top: 3px solid #4aaaa5;
+    text-align: center;
+    color: #ffffff;
+    background-color: #666666;
+    padding: 1rem;
+}
+
+/* STYLING CONTACT PAGE*/
+form{
+    display: flex;
+    flex-direction: column;
+    width: 56rem;
+    height: 16rem;
+    margin: 1.5rem 0;
+}
+
+.name,
+.email,
+.message{
+    height: 1rem;
+    padding: 4px;
+    margin-bottom: 1rem;
+}
+
+input.message{
+    rows: 10;
+}
+
