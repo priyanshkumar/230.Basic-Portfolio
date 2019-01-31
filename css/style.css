@@ -59,6 +59,7 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
+    border: 1px solid #dddddd;
 }
 
 .h2heading{
@@ -98,22 +99,29 @@ footer{
 
 /* STYLING CONTACT PAGE*/
 form{
+    margin: 1rem;
+}
+
+.f-content
+{
     display: flex;
     flex-direction: column;
-    width: 56rem;
-    height: 16rem;
-    margin: 1.5rem 0;
 }
 
-.name,
-.email,
-.message{
-    height: 1rem;
-    padding: 4px;
-    margin-bottom: 1rem;
+#fname,
+#femail,
+#fmessage
+{
+    width: 55rem;
+    margin-bottom: 0.8rem;
+    padding: 8px 10px;;
+    border: 1px solid #dddddd;
 }
 
-input.message{
-    rows: 10;
+.f-button{
+    color: #ffffff;
+    padding: 0.4rem 0.8rem;
+    background-color: #4aaaa5;
+    border: none;
 }
 

@@ -24,21 +24,22 @@
         <div class="h2heading">
             <h2 class="headings">Contact</h2>
         </div>
-        <div class="form">
-            <form action="">
+        <form action="">
+            <div class="f-content">
                 <label for="name">Name</label>
-                <input type="text" class="name" placeholder="John Smith"/>
-
+                <input type="text" id="fname" name="name" placeholder="John Smith">
+            </div>
+            <div class="f-content">
                 <label for="email">Email</label>
-                <input type="email" class="email" placeholder="example@gmail.com" />
-
+                <input type="text" id="femail" name="email" placeholder="example@gmail.com">
+            </div>
+            <div class="f-content">
                 <label for="message">Message</label>
-                <input type="text" class="message" />
+                <textarea name="message" id="fmessage" cols="30" rows="10"></textarea>
+            </div>
 
-                <button type="button">Submit
-                </button>
-            </form>
-        </div>
+            <button class="f-button" type="submit">Submit</button>
+        </form>
     </div>
     <footer>
         <p class="f-text">Copyright &RBarr;</p>
