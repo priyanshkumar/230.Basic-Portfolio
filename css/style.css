@@ -5,12 +5,12 @@
     padding: 0%; 
 }
 
-/*  STYLING COMMON FOR ALL PAGES*/
+/*  STYLING COMMON elements AND header FOR ALL PAGES*/
 
 body{
     color: #777777;
     background-color: #efeee7;
-    font-family: 'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';
+    font-family: 'Ubuntu', sans-serif;
     line-height: 1.5;
 }
 
@@ -23,8 +23,9 @@ header{
 }
 
 .headings{
-    font-family: 'Georgia', 'Times', 'Times New Roman', 'serif'; 
+    font-family: 'Staatliches', cursive;
 }
+
 .nav{
     width: 60rem;
     display: flex;
@@ -52,6 +53,10 @@ header{
     text-decoration: none;
     color: #777777;
 }
+.hNavLink .hAnchor:hover{
+    color: #2a344c;
+}
+
 .container{
     width: 60rem;
     margin: 2rem auto;
@@ -104,6 +109,7 @@ footer{
 /* STYLING CONTACT PAGE*/
 form{
     margin: 1rem;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .f-content
@@ -160,11 +166,11 @@ form{
     width: 16rem;
     height: 14rem;
     font-family: 'Ubuntu', sans-serif;
-    padding: 1rem;
+    margin: 1rem;
 }
 
 .g-block:hover{
-    box-shadow: 14px 15px 12px #dddddd;
+    box-shadow: -14px -15px 5px #dddddd;
 }
 
 .container.thispg{
