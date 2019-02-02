@@ -88,6 +88,10 @@ img{
     font-size: 17px;
 }
 
+.about-sec1-text p{
+    font-family: 'Ubuntu', sans-serif;
+}
+
 /* FOOTER */
 footer{
     border-top: 3px solid #4aaaa5;
@@ -125,3 +129,48 @@ form{
     border: none;
 }
 
+/* portfolio page */
+.gallery{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 35rem;
+    margin: 2rem;
+    margin-left: 3rem;
+}
+
+.g-img{
+    position: relative;
+    width: 16rem;
+    height: 14rem;
+}
+
+.heading3{
+    position: absolute;
+    z-index: 1;
+    width: 16rem;
+    margin-top: 7.5rem;
+    padding: 0.7rem 0;
+    text-align: center;
+    color: #ffffff;
+    background-color: #4aaaa5;
+}
+
+.g-block{ 
+    width: 16rem;
+    height: 14rem;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 1rem;
+}
+
+.g-block:hover{
+    box-shadow: 14px 15px 12px #dddddd;
+}
+
+.container.thispg{
+    align-items: flex-start;
+}
+
+.h2heading.thispg-heading{
+    margin: 0 2rem;
+}
